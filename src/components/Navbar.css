@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.categories {
+    display: flex;
+    color: #424949;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.categories li {
+    padding: 0 20px;
+    list-style: none;
+}
+
+.categories :hover {
+    color: #5dade2;
+}
