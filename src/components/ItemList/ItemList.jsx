@@ -1,5 +1,5 @@
 import Item from "../Item/Item"
-import hocFilterProducts from "../../hoc/hocfilterproducts"
+import hocFilterProducts from "../../hoc/hocFilterProducts"
 
 const ItemList = ({products = []}) => {
     return (
