@@ -1,4 +1,4 @@
-# Yuliana Estrada
+# PequeChic
 
 PequeChic es un ecommerce especializado en la venta de artículos para bebés, en las categorías de ropa, zapatos, juguetería y cuidado personal y corporal.
 
