@@ -19,6 +19,7 @@ function App() {
         <div className="app-container">
           <Navbar />
           <Routes>
+            <Route path="/" element={<ItemListContainer saludo={<span style={{ opacity: 0 }}>.</span>} />} />
             <Route path="/products" element={<ItemListContainer saludo={<span style={{ opacity: 0 }}>.</span>} />} />
             <Route path="/category/:category" element={<ItemListContainer saludo={<span style={{ opacity: 0 }}>.</span>} />} />
             <Route path="/detail/:productId" element={<ItemDetailContainer saludo={<span style={{ opacity: 0 }}>.</span>} />} />
