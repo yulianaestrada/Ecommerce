@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import { ItemListWithSearch } from './components/ItemList/ItemList';
 import ItemDetailContainer from './components/Itemdetailcontainer/ItemDetailContainer';
@@ -24,6 +25,7 @@ function App() {
             <Route path="/cart" element={<Cart saludo={<span style={{ opacity: 0 }}>.</span>} />} />
             <Route path="/checkout" element={<Checkout saludo={<span style={{ opacity: 0 }}>.</span>} />} />
           </Routes>
+          <Footer />
         </div >
       </CartProvider>
     </BrowserRouter>
