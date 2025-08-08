@@ -1,0 +1,24 @@
+.carrito {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.boton1 {
+    width: 30px;
+    height: 30px;
+}
+
+.boton2 {
+    width: 130px;
+    height: 30px;
+}
+
+.count {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

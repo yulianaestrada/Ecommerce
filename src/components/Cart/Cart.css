@@ -1,0 +1,71 @@
+.eliminar {
+    background-color: white;
+    border-color: palevioletred;
+    border-radius: 10px;
+    color: palevioletred;
+    font-weight: bold;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.eliminar:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.detalle {
+    position: relative;
+    height: 100px;
+    width: 1490px;
+}
+
+.eliminar2 {
+    background-color: white;
+    border-color: #5dade2;
+    border-radius: 10px;
+    color: #5dade2;
+    font-weight: bold;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.eliminar2:hover {
+    background-color: #5dade2;
+    color: white;
+}
+
+.comprar {
+    background-color: white;
+    border-color: #5dade2;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 180px;
+    text-decoration: none;
+}
+
+.comprar2 {
+    text-decoration: none;
+    color: #5dade2;
+}
+
+.comprar:hover,
+.comprar2:hover {
+    background-color: #5dade2;
+    color: white;
+}
+
+.price {
+    position: absolute;
+    top: 4px;
+    right: 367px;
+    font-weight: bold;
+}

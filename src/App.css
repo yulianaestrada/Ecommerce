@@ -1,5 +1,6 @@
-.app-container{
-    background-color: gray;
-    color: white;
+.item-container {
+  border: 3px solid  gray;
+  background-color: gray;
+  margin-bottom: 20px;
+  padding: 0.1px;
 }
-

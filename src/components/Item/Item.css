@@ -1,0 +1,63 @@
+.items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px;
+}
+
+.item-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 300px;
+}
+
+.item-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item-description {
+  font-size: 0.8rem;
+  color: #555;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.item-price {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #5dade2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item-stock {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.detalles{
+  background-color: #5dade2;
+  border-radius: 10px;
+  border-color: #5dade2;
+  color: white;
+}

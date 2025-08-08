@@ -23,3 +23,8 @@
 .categories :hover {
     color: #5dade2;
 }
+
+.link{
+    color: gray;
+    text-decoration: none;
+}

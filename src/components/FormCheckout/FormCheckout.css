@@ -1,0 +1,50 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  gap: 10px;
+  position: absolute;
+  top: 330px;
+  right: 500px;
+}
+
+.formulario input {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.enviar {
+  border-radius: 50px;
+  height: 50px;
+  border-color: #5dade2;
+  background-color: white;
+  color: #5dade2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.enviar:hover {
+  border-radius: 50px;
+  height: 50px;
+  border-color: white;
+  background-color: #5dade2;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.formulario label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: gray;
+}
+
+.formulario img {
+  width: 200px;
+  position: fixed;
+  top: 140px;
+  right: 670px;
+}

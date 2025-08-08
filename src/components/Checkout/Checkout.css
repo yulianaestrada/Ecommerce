@@ -1,0 +1,26 @@
+.orden2 {
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 300px;
+    right: 580px;
+}
+
+.orden3 {
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    right: 500px;
+    top: 350px;
+    position: fixed;
+}
+
+.orderimg {
+    width: 200px;
+    position: fixed;
+    top: 140px;
+    right: 670px;
+}

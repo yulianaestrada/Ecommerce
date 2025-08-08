@@ -1,0 +1,20 @@
+.total {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cartwidge {
+    position: relative;
+    width: fit-content;
+}
